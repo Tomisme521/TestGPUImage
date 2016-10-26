@@ -1,1194 +1,628 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>1DC19558A6E218AF4B86D508</key>
-		<dict>
-			<key>fileRef</key>
-			<string>24AF35CF93C16FA5A73B5AEA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>24AF35CF93C16FA5A73B5AEA</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-TestGPUImage.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2DFE9DA9DDC06F6BBC787E7D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-TestGPUImage/Pods-TestGPUImage-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>51F17FF693E6D3F25CBCC41A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>90C5735F4F37E757D61E9C5D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>24AF35CF93C16FA5A73B5AEA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>933F8AE5324236C6CDC49429</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-TestGPUImage.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-TestGPUImage/Pods-TestGPUImage.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A4061DC08076000DA4E7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>96D0A4111DC08076000DA4E7</string>
-				<string>96D0A42B1DC08077000DA4E7</string>
-				<string>96D0A4361DC08077000DA4E7</string>
-				<string>96D0A4101DC08076000DA4E7</string>
-				<string>A72BC330365B1765863293B8</string>
-				<string>90C5735F4F37E757D61E9C5D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A4071DC08076000DA4E7</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0800</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>uxin</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>96D0A40E1DC08076000DA4E7</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.0</string>
-						<key>DevelopmentTeam</key>
-						<string>3ZDCJFR3A6</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-					</dict>
-					<key>96D0A4271DC08077000DA4E7</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.0</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>96D0A40E1DC08076000DA4E7</string>
-					</dict>
-					<key>96D0A4321DC08077000DA4E7</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.0</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>96D0A40E1DC08076000DA4E7</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>96D0A40A1DC08076000DA4E7</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>96D0A4061DC08076000DA4E7</string>
-			<key>productRefGroup</key>
-			<string>96D0A4101DC08076000DA4E7</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>96D0A40E1DC08076000DA4E7</string>
-				<string>96D0A4271DC08077000DA4E7</string>
-				<string>96D0A4321DC08077000DA4E7</string>
-			</array>
-		</dict>
-		<key>96D0A40A1DC08076000DA4E7</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>96D0A43A1DC08077000DA4E7</string>
-				<string>96D0A43B1DC08077000DA4E7</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>96D0A40B1DC08076000DA4E7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>96D0A41A1DC08077000DA4E7</string>
-				<string>96D0A4171DC08077000DA4E7</string>
-				<string>96D0A4141DC08076000DA4E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>96D0A40C1DC08076000DA4E7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1DC19558A6E218AF4B86D508</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>96D0A40D1DC08076000DA4E7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>96D0A4221DC08077000DA4E7</string>
-				<string>96D0A41F1DC08077000DA4E7</string>
-				<string>96D0A41D1DC08077000DA4E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>96D0A40E1DC08076000DA4E7</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>96D0A43C1DC08077000DA4E7</string>
-			<key>buildPhases</key>
-			<array>
-				<string>51F17FF693E6D3F25CBCC41A</string>
-				<string>96D0A40B1DC08076000DA4E7</string>
-				<string>96D0A40C1DC08076000DA4E7</string>
-				<string>96D0A40D1DC08076000DA4E7</string>
-				<string>2DFE9DA9DDC06F6BBC787E7D</string>
-				<string>C789DACFE3677032DE8C90AD</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TestGPUImage</string>
-			<key>productName</key>
-			<string>TestGPUImage</string>
-			<key>productReference</key>
-			<string>96D0A40F1DC08076000DA4E7</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>96D0A40F1DC08076000DA4E7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TestGPUImage.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>96D0A4101DC08076000DA4E7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>96D0A40F1DC08076000DA4E7</string>
-				<string>96D0A4281DC08077000DA4E7</string>
-				<string>96D0A4331DC08077000DA4E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A4111DC08076000DA4E7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>96D0A4151DC08076000DA4E7</string>
-				<string>96D0A4161DC08077000DA4E7</string>
-				<string>96D0A4181DC08077000DA4E7</string>
-				<string>96D0A4191DC08077000DA4E7</string>
-				<string>96D0A41B1DC08077000DA4E7</string>
-				<string>96D0A41E1DC08077000DA4E7</string>
-				<string>96D0A4201DC08077000DA4E7</string>
-				<string>96D0A4231DC08077000DA4E7</string>
-				<string>96D0A4121DC08076000DA4E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>TestGPUImage</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A4121DC08076000DA4E7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>96D0A4131DC08076000DA4E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A4131DC08076000DA4E7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A4141DC08076000DA4E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>96D0A4131DC08076000DA4E7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>96D0A4151DC08076000DA4E7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A4161DC08077000DA4E7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A4171DC08077000DA4E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>96D0A4161DC08077000DA4E7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>96D0A4181DC08077000DA4E7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A4191DC08077000DA4E7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A41A1DC08077000DA4E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>96D0A4191DC08077000DA4E7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>96D0A41B1DC08077000DA4E7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>96D0A41C1DC08077000DA4E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A41C1DC08077000DA4E7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A41D1DC08077000DA4E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>96D0A41B1DC08077000DA4E7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>96D0A41E1DC08077000DA4E7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A41F1DC08077000DA4E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>96D0A41E1DC08077000DA4E7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>96D0A4201DC08077000DA4E7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>96D0A4211DC08077000DA4E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A4211DC08077000DA4E7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A4221DC08077000DA4E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>96D0A4201DC08077000DA4E7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>96D0A4231DC08077000DA4E7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A4241DC08077000DA4E7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>96D0A42D1DC08077000DA4E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>96D0A4251DC08077000DA4E7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>96D0A4261DC08077000DA4E7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>96D0A4271DC08077000DA4E7</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>96D0A43F1DC08077000DA4E7</string>
-			<key>buildPhases</key>
-			<array>
-				<string>96D0A4241DC08077000DA4E7</string>
-				<string>96D0A4251DC08077000DA4E7</string>
-				<string>96D0A4261DC08077000DA4E7</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>96D0A42A1DC08077000DA4E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TestGPUImageTests</string>
-			<key>productName</key>
-			<string>TestGPUImageTests</string>
-			<key>productReference</key>
-			<string>96D0A4281DC08077000DA4E7</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>96D0A4281DC08077000DA4E7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TestGPUImageTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>96D0A4291DC08077000DA4E7</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>96D0A4071DC08076000DA4E7</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>96D0A40E1DC08076000DA4E7</string>
-			<key>remoteInfo</key>
-			<string>TestGPUImage</string>
-		</dict>
-		<key>96D0A42A1DC08077000DA4E7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>96D0A40E1DC08076000DA4E7</string>
-			<key>targetProxy</key>
-			<string>96D0A4291DC08077000DA4E7</string>
-		</dict>
-		<key>96D0A42B1DC08077000DA4E7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>96D0A42C1DC08077000DA4E7</string>
-				<string>96D0A42E1DC08077000DA4E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>TestGPUImageTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A42C1DC08077000DA4E7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TestGPUImageTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A42D1DC08077000DA4E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>96D0A42C1DC08077000DA4E7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>96D0A42E1DC08077000DA4E7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A42F1DC08077000DA4E7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>96D0A4381DC08077000DA4E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>96D0A4301DC08077000DA4E7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>96D0A4311DC08077000DA4E7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>96D0A4321DC08077000DA4E7</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>96D0A4421DC08077000DA4E7</string>
-			<key>buildPhases</key>
-			<array>
-				<string>96D0A42F1DC08077000DA4E7</string>
-				<string>96D0A4301DC08077000DA4E7</string>
-				<string>96D0A4311DC08077000DA4E7</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>96D0A4351DC08077000DA4E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TestGPUImageUITests</string>
-			<key>productName</key>
-			<string>TestGPUImageUITests</string>
-			<key>productReference</key>
-			<string>96D0A4331DC08077000DA4E7</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>96D0A4331DC08077000DA4E7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TestGPUImageUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>96D0A4341DC08077000DA4E7</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>96D0A4071DC08076000DA4E7</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>96D0A40E1DC08076000DA4E7</string>
-			<key>remoteInfo</key>
-			<string>TestGPUImage</string>
-		</dict>
-		<key>96D0A4351DC08077000DA4E7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>96D0A40E1DC08076000DA4E7</string>
-			<key>targetProxy</key>
-			<string>96D0A4341DC08077000DA4E7</string>
-		</dict>
-		<key>96D0A4361DC08077000DA4E7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>96D0A4371DC08077000DA4E7</string>
-				<string>96D0A4391DC08077000DA4E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>TestGPUImageUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A4371DC08077000DA4E7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TestGPUImageUITests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A4381DC08077000DA4E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>96D0A4371DC08077000DA4E7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>96D0A4391DC08077000DA4E7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96D0A43A1DC08077000DA4E7</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>96D0A43B1DC08077000DA4E7</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>96D0A43C1DC08077000DA4E7</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>96D0A43D1DC08077000DA4E7</string>
-				<string>96D0A43E1DC08077000DA4E7</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>96D0A43D1DC08077000DA4E7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>933F8AE5324236C6CDC49429</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>3ZDCJFR3A6</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TestGPUImage/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>www.uxin.com</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>96D0A43E1DC08077000DA4E7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B50C8CC68A9A7BC9623F52FE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>3ZDCJFR3A6</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TestGPUImage/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>www.uxin.com</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>96D0A43F1DC08077000DA4E7</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>96D0A4401DC08077000DA4E7</string>
-				<string>96D0A4411DC08077000DA4E7</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>96D0A4401DC08077000DA4E7</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TestGPUImageTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>www.uxin.com.TestGPUImageTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/TestGPUImage.app/TestGPUImage</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>96D0A4411DC08077000DA4E7</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TestGPUImageTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>www.uxin.com.TestGPUImageTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/TestGPUImage.app/TestGPUImage</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>96D0A4421DC08077000DA4E7</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>96D0A4431DC08077000DA4E7</string>
-				<string>96D0A4441DC08077000DA4E7</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>96D0A4431DC08077000DA4E7</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>TestGPUImageUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>www.uxin.com.TestGPUImageUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>TestGPUImage</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>96D0A4441DC08077000DA4E7</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>TestGPUImageUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>www.uxin.com.TestGPUImageUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>TestGPUImage</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A72BC330365B1765863293B8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>933F8AE5324236C6CDC49429</string>
-				<string>B50C8CC68A9A7BC9623F52FE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B50C8CC68A9A7BC9623F52FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-TestGPUImage.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-TestGPUImage/Pods-TestGPUImage.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C789DACFE3677032DE8C90AD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-TestGPUImage/Pods-TestGPUImage-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>96D0A4071DC08076000DA4E7</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DC19558A6E218AF4B86D508 /* libPods-TestGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AF35CF93C16FA5A73B5AEA /* libPods-TestGPUImage.a */; };
+		96D0A4141DC08076000DA4E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0A4131DC08076000DA4E7 /* main.m */; };
+		96D0A4171DC08077000DA4E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0A4161DC08077000DA4E7 /* AppDelegate.m */; };
+		96D0A41A1DC08077000DA4E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0A4191DC08077000DA4E7 /* ViewController.m */; };
+		96D0A41D1DC08077000DA4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D0A41B1DC08077000DA4E7 /* Main.storyboard */; };
+		96D0A41F1DC08077000DA4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D0A41E1DC08077000DA4E7 /* Assets.xcassets */; };
+		96D0A4221DC08077000DA4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D0A4201DC08077000DA4E7 /* LaunchScreen.storyboard */; };
+		96D0A42D1DC08077000DA4E7 /* TestGPUImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0A42C1DC08077000DA4E7 /* TestGPUImageTests.m */; };
+		96D0A4381DC08077000DA4E7 /* TestGPUImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0A4371DC08077000DA4E7 /* TestGPUImageUITests.m */; };
+		96D0A44A1DC09019000DA4E7 /* JFCompressionVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0A4491DC09019000DA4E7 /* JFCompressionVideo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96D0A4291DC08077000DA4E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96D0A4071DC08076000DA4E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96D0A40E1DC08076000DA4E7;
+			remoteInfo = TestGPUImage;
+		};
+		96D0A4341DC08077000DA4E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96D0A4071DC08076000DA4E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96D0A40E1DC08076000DA4E7;
+			remoteInfo = TestGPUImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24AF35CF93C16FA5A73B5AEA /* libPods-TestGPUImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestGPUImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		933F8AE5324236C6CDC49429 /* Pods-TestGPUImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestGPUImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestGPUImage/Pods-TestGPUImage.debug.xcconfig"; sourceTree = "<group>"; };
+		96D0A40F1DC08076000DA4E7 /* TestGPUImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGPUImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D0A4131DC08076000DA4E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96D0A4151DC08076000DA4E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96D0A4161DC08077000DA4E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96D0A4181DC08077000DA4E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96D0A4191DC08077000DA4E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96D0A41C1DC08077000DA4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96D0A41E1DC08077000DA4E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96D0A4211DC08077000DA4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96D0A4231DC08077000DA4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D0A4281DC08077000DA4E7 /* TestGPUImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGPUImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D0A42C1DC08077000DA4E7 /* TestGPUImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGPUImageTests.m; sourceTree = "<group>"; };
+		96D0A42E1DC08077000DA4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D0A4331DC08077000DA4E7 /* TestGPUImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGPUImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D0A4371DC08077000DA4E7 /* TestGPUImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGPUImageUITests.m; sourceTree = "<group>"; };
+		96D0A4391DC08077000DA4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D0A4481DC09019000DA4E7 /* JFCompressionVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCompressionVideo.h; sourceTree = "<group>"; };
+		96D0A4491DC09019000DA4E7 /* JFCompressionVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCompressionVideo.m; sourceTree = "<group>"; };
+		B50C8CC68A9A7BC9623F52FE /* Pods-TestGPUImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestGPUImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestGPUImage/Pods-TestGPUImage.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96D0A40C1DC08076000DA4E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC19558A6E218AF4B86D508 /* libPods-TestGPUImage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D0A4251DC08077000DA4E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D0A4301DC08077000DA4E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90C5735F4F37E757D61E9C5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24AF35CF93C16FA5A73B5AEA /* libPods-TestGPUImage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96D0A4061DC08076000DA4E7 = {
+			isa = PBXGroup;
+			children = (
+				96D0A4111DC08076000DA4E7 /* TestGPUImage */,
+				96D0A4471DC09019000DA4E7 /* JFCompressionVideoHeaper */,
+				96D0A42B1DC08077000DA4E7 /* TestGPUImageTests */,
+				96D0A4361DC08077000DA4E7 /* TestGPUImageUITests */,
+				96D0A4101DC08076000DA4E7 /* Products */,
+				A72BC330365B1765863293B8 /* Pods */,
+				90C5735F4F37E757D61E9C5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96D0A4101DC08076000DA4E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96D0A40F1DC08076000DA4E7 /* TestGPUImage.app */,
+				96D0A4281DC08077000DA4E7 /* TestGPUImageTests.xctest */,
+				96D0A4331DC08077000DA4E7 /* TestGPUImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96D0A4111DC08076000DA4E7 /* TestGPUImage */ = {
+			isa = PBXGroup;
+			children = (
+				96D0A4151DC08076000DA4E7 /* AppDelegate.h */,
+				96D0A4161DC08077000DA4E7 /* AppDelegate.m */,
+				96D0A4181DC08077000DA4E7 /* ViewController.h */,
+				96D0A4191DC08077000DA4E7 /* ViewController.m */,
+				96D0A41B1DC08077000DA4E7 /* Main.storyboard */,
+				96D0A41E1DC08077000DA4E7 /* Assets.xcassets */,
+				96D0A4201DC08077000DA4E7 /* LaunchScreen.storyboard */,
+				96D0A4231DC08077000DA4E7 /* Info.plist */,
+				96D0A4121DC08076000DA4E7 /* Supporting Files */,
+			);
+			path = TestGPUImage;
+			sourceTree = "<group>";
+		};
+		96D0A4121DC08076000DA4E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96D0A4131DC08076000DA4E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96D0A42B1DC08077000DA4E7 /* TestGPUImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				96D0A42C1DC08077000DA4E7 /* TestGPUImageTests.m */,
+				96D0A42E1DC08077000DA4E7 /* Info.plist */,
+			);
+			path = TestGPUImageTests;
+			sourceTree = "<group>";
+		};
+		96D0A4361DC08077000DA4E7 /* TestGPUImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96D0A4371DC08077000DA4E7 /* TestGPUImageUITests.m */,
+				96D0A4391DC08077000DA4E7 /* Info.plist */,
+			);
+			path = TestGPUImageUITests;
+			sourceTree = "<group>";
+		};
+		96D0A4471DC09019000DA4E7 /* JFCompressionVideoHeaper */ = {
+			isa = PBXGroup;
+			children = (
+				96D0A4481DC09019000DA4E7 /* JFCompressionVideo.h */,
+				96D0A4491DC09019000DA4E7 /* JFCompressionVideo.m */,
+			);
+			name = JFCompressionVideoHeaper;
+			path = TestGPUImage/JFCompressionVideoHeaper;
+			sourceTree = "<group>";
+		};
+		A72BC330365B1765863293B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				933F8AE5324236C6CDC49429 /* Pods-TestGPUImage.debug.xcconfig */,
+				B50C8CC68A9A7BC9623F52FE /* Pods-TestGPUImage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96D0A40E1DC08076000DA4E7 /* TestGPUImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D0A43C1DC08077000DA4E7 /* Build configuration list for PBXNativeTarget "TestGPUImage" */;
+			buildPhases = (
+				51F17FF693E6D3F25CBCC41A /* Check Pods Manifest.lock */,
+				96D0A40B1DC08076000DA4E7 /* Sources */,
+				96D0A40C1DC08076000DA4E7 /* Frameworks */,
+				96D0A40D1DC08076000DA4E7 /* Resources */,
+				2DFE9DA9DDC06F6BBC787E7D /* Embed Pods Frameworks */,
+				C789DACFE3677032DE8C90AD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestGPUImage;
+			productName = TestGPUImage;
+			productReference = 96D0A40F1DC08076000DA4E7 /* TestGPUImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96D0A4271DC08077000DA4E7 /* TestGPUImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D0A43F1DC08077000DA4E7 /* Build configuration list for PBXNativeTarget "TestGPUImageTests" */;
+			buildPhases = (
+				96D0A4241DC08077000DA4E7 /* Sources */,
+				96D0A4251DC08077000DA4E7 /* Frameworks */,
+				96D0A4261DC08077000DA4E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96D0A42A1DC08077000DA4E7 /* PBXTargetDependency */,
+			);
+			name = TestGPUImageTests;
+			productName = TestGPUImageTests;
+			productReference = 96D0A4281DC08077000DA4E7 /* TestGPUImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96D0A4321DC08077000DA4E7 /* TestGPUImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D0A4421DC08077000DA4E7 /* Build configuration list for PBXNativeTarget "TestGPUImageUITests" */;
+			buildPhases = (
+				96D0A42F1DC08077000DA4E7 /* Sources */,
+				96D0A4301DC08077000DA4E7 /* Frameworks */,
+				96D0A4311DC08077000DA4E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96D0A4351DC08077000DA4E7 /* PBXTargetDependency */,
+			);
+			name = TestGPUImageUITests;
+			productName = TestGPUImageUITests;
+			productReference = 96D0A4331DC08077000DA4E7 /* TestGPUImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96D0A4071DC08076000DA4E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = uxin;
+				TargetAttributes = {
+					96D0A40E1DC08076000DA4E7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3ZDCJFR3A6;
+						ProvisioningStyle = Automatic;
+					};
+					96D0A4271DC08077000DA4E7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96D0A40E1DC08076000DA4E7;
+					};
+					96D0A4321DC08077000DA4E7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96D0A40E1DC08076000DA4E7;
+					};
+				};
+			};
+			buildConfigurationList = 96D0A40A1DC08076000DA4E7 /* Build configuration list for PBXProject "TestGPUImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96D0A4061DC08076000DA4E7;
+			productRefGroup = 96D0A4101DC08076000DA4E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96D0A40E1DC08076000DA4E7 /* TestGPUImage */,
+				96D0A4271DC08077000DA4E7 /* TestGPUImageTests */,
+				96D0A4321DC08077000DA4E7 /* TestGPUImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96D0A40D1DC08076000DA4E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D0A4221DC08077000DA4E7 /* LaunchScreen.storyboard in Resources */,
+				96D0A41F1DC08077000DA4E7 /* Assets.xcassets in Resources */,
+				96D0A41D1DC08077000DA4E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D0A4261DC08077000DA4E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D0A4311DC08077000DA4E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DFE9DA9DDC06F6BBC787E7D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestGPUImage/Pods-TestGPUImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51F17FF693E6D3F25CBCC41A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C789DACFE3677032DE8C90AD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestGPUImage/Pods-TestGPUImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96D0A40B1DC08076000DA4E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D0A44A1DC09019000DA4E7 /* JFCompressionVideo.m in Sources */,
+				96D0A41A1DC08077000DA4E7 /* ViewController.m in Sources */,
+				96D0A4171DC08077000DA4E7 /* AppDelegate.m in Sources */,
+				96D0A4141DC08076000DA4E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D0A4241DC08077000DA4E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D0A42D1DC08077000DA4E7 /* TestGPUImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D0A42F1DC08077000DA4E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D0A4381DC08077000DA4E7 /* TestGPUImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96D0A42A1DC08077000DA4E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96D0A40E1DC08076000DA4E7 /* TestGPUImage */;
+			targetProxy = 96D0A4291DC08077000DA4E7 /* PBXContainerItemProxy */;
+		};
+		96D0A4351DC08077000DA4E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96D0A40E1DC08076000DA4E7 /* TestGPUImage */;
+			targetProxy = 96D0A4341DC08077000DA4E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96D0A41B1DC08077000DA4E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96D0A41C1DC08077000DA4E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96D0A4201DC08077000DA4E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96D0A4211DC08077000DA4E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96D0A43A1DC08077000DA4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96D0A43B1DC08077000DA4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96D0A43D1DC08077000DA4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933F8AE5324236C6CDC49429 /* Pods-TestGPUImage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ZDCJFR3A6;
+				INFOPLIST_FILE = TestGPUImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.uxin.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96D0A43E1DC08077000DA4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B50C8CC68A9A7BC9623F52FE /* Pods-TestGPUImage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ZDCJFR3A6;
+				INFOPLIST_FILE = TestGPUImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.uxin.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96D0A4401DC08077000DA4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestGPUImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.uxin.com.TestGPUImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestGPUImage.app/TestGPUImage";
+			};
+			name = Debug;
+		};
+		96D0A4411DC08077000DA4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestGPUImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.uxin.com.TestGPUImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestGPUImage.app/TestGPUImage";
+			};
+			name = Release;
+		};
+		96D0A4431DC08077000DA4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestGPUImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.uxin.com.TestGPUImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestGPUImage;
+			};
+			name = Debug;
+		};
+		96D0A4441DC08077000DA4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestGPUImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.uxin.com.TestGPUImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestGPUImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96D0A40A1DC08076000DA4E7 /* Build configuration list for PBXProject "TestGPUImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D0A43A1DC08077000DA4E7 /* Debug */,
+				96D0A43B1DC08077000DA4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96D0A43C1DC08077000DA4E7 /* Build configuration list for PBXNativeTarget "TestGPUImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D0A43D1DC08077000DA4E7 /* Debug */,
+				96D0A43E1DC08077000DA4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96D0A43F1DC08077000DA4E7 /* Build configuration list for PBXNativeTarget "TestGPUImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D0A4401DC08077000DA4E7 /* Debug */,
+				96D0A4411DC08077000DA4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96D0A4421DC08077000DA4E7 /* Build configuration list for PBXNativeTarget "TestGPUImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D0A4431DC08077000DA4E7 /* Debug */,
+				96D0A4441DC08077000DA4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96D0A4071DC08076000DA4E7 /* Project object */;
+}
